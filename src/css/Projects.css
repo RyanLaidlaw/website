@@ -1,0 +1,55 @@
+/* Projects.css */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-name, .class_name, .project-description {
+    margin-left: 20px;
+}
+
+.school-item {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.project-name {
+    font-size: 25px;
+}
+
+.personal-projects-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-description {
+    margin-bottom: 10px;
+}
+
+.personal-item {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.personal-project-name {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.personal-project-description {
+    margin-left: 20px;
+}
+
+.personal-project-link {
+    margin-left: 20px;
+}
+
+.even-row, .odd-row {
+    margin-top: 20px;
+}
+
+.more-to-come-font {
+    font-size: 40px; 
+}
