@@ -4,13 +4,26 @@ import './css/Education.css';
 
 function Education() {
   const courses = [
-    { courseTitle: 'Computer Organization and System-Level Programming', description: 'Studied software/hardware interaction to understand data and program representation. A strong understanding of registers, instruction sets, addressing, assemblers, linkers, concurrency, memory hierarchy and management was developed through extensive projects in the C programming language.' },
-    { courseTitle: 'Introduction to Software Engineering', description: 'Study of software development practices and processes including: software life cycle, system validation, cloud infrastructure, virtual machines and containers as well as fundamental security concepts. Used these concepts to work in a group to develop a web application using HTML and CSS along with the Jinja library for Python for a dynamic frontend, and a backend based in MongoDB.' },
-    { courseTitle: 'Introduction to Cybersecurity', description: 'An introduction into the expansive world of cybersecurity, including topics such as authentication, authorization, auditing, and cryptography. Covered various kinds of network attacks, such as ransomware, viruses, worms, SQL injections, spoofing and social engineering.'},
-    { courseTitle: 'Data Structures and Algorithms', description: 'Covered the mechanics, implementation and relative efficiencies of advanced data structures (AVL trees, heaps, hash tables) with Java. Discussed abstract data types (maps, priority queues and graphs) as well as sorting and graph algorithms.' },
-    { courseTitle: 'Programming for Digital Systems', description: 'An introduction to the C programming language, with an emphasis on low-level operations, memory management, and debugging. This class strongly emphasized Boolean algebra, basic logic gates and number systems and conversions to create a strong foundation for low-level systems.' },
-    { courseTitle: 'Introduction to IT', description: 'Provided fundamentals of Internet communications to understand the underlying technologies of the World Wide Web. Provided an introduction to HTML and CSS to create and publish a basic web page.' },
-    { courseTitle: 'Introduction to Computer Science I and II', description: 'Both classes provide an introduction to algorithm development and analysis, data structures, and data abstraction through Python and Java, respectively.' }
+    { courseTitle: 'Object-Oriented Design and Development', description: <ul>
+      <li>Developed a multi-player tank application in Java.</li>
+      <li>Explored many different Object-Oriented design patterns for more cohesive, less coupled code.</li>
+    </ul>},
+    { courseTitle: 'Introduction to the Theory of Computation', description: <ul>
+      <li>Strong emphasis on proofs of correctness.</li>
+      <li>Finite automata, context-free languages, pushdown automata.</li>
+    </ul>},
+    { courseTitle: 'Computer Organization and System-Level Programming', description: <ul>
+      <li>Developed a strong understanding of registers, isntruction sets, addressing, assemblers, concurrency and memory management.</li>
+      <li>Extensive projects written in the C programming language.</li>
+    </ul> },
+    { courseTitle: 'Introduction to Software Engineering', description: <ul>
+      <li>Focused on software development practices (such as Agile), cloud infrastructure, virtual machines and containers.</li>
+      <li>Created a web application using Python, HTML, CSS, Flask and Jinja for a dynamic frontend and MongoDB for a JSON-like database.</li>
+    </ul> },
+    { courseTitle: 'Data Structures and Algorithms', description: <ul>
+      <li>Emphazied the implementation, mechanics and relative efficiencies of data structures in Java.</li>
+      <li>Graphs, heaps, hash tables, AVL trees and various sorting algorithms.</li>
+      </ul> }
   ];
 
   return (

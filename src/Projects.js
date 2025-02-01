@@ -5,16 +5,47 @@ import './css/Projects.css'
 function Projects() {
 
   const schoolProjects = [
-    {projectName: "BulletZone", class_name: "CS619 - Object-Oriented Design and Development", projectDescription: "In a semester long project, I worked in a group of four to create a multi-player Andriod game using AndroidStudio (and written in Java). This game is a classic tank game, with different tanks having different abilities as well as different levels of difficulty entering a specific type of terrain (rocks, hills, meadows, water). More specifically, I focused on the server side of the game, which dealt with all of the game logic using Object Oriented design patterns and principles."},
-    {projectName: "Virtual Memory Simulation", class_name: "CS520 - Computer Organization and System-Level Programming", projectDescription: "Over the course of two weeks, wrote a program to simulate virtual memory to handle addressing read and write operations. Started by implementing the groundwork for structures such as virtual memory, physical memory, a page table and a Translation Lookaside Buffer (TLB). Along with this, implemented replacement algorithms for page faults and TLB misses such as Round Robin Replacement and Least Recently Used."},
-    {projectName: "Calendar Application", class_name: "CS518 - Introduction to Software Engineering", projectDescription: "Worked in a group setting to develop a calendar web application. Using Python and the Flask framework with MongoDB in the backend, we were able to create a user signup and login page, as well as establish user sessions. While this app is minimalistic in design, it was great practice for creating dynamic web pages using HTTP request methods."},
+    {projectName: "BulletZone", class_name: "CS619 - Object-Oriented Design and Development", 
+    projectDescription: <ul>
+      <li>Multi-player tank game.</li>
+      <li>Written in Java using AndroidStudio.</li>
+      <li>Focus on Object-Oriented patterns and designs.</li>
+      <li>Developed on the server side of the application, handling game logic using HTTP requests from the client side.</li>
+    </ul>},
+    {projectName: "Virtual Memory Simulation", class_name: "CS520 - Computer Organization and System-Level Programming",
+     projectDescription: <ul>
+      <li>Written in C.</li>
+      <li>Implemented Round Robin and Least Recently Used replacement algorithms for memory paging.</li>
+      <li>Created page table structure as well as TLB structure for improved performance.</li>
+     </ul>},
+    {projectName: "Calendar Application", class_name: "CS518 - Introduction to Software Engineering", 
+    projectDescription: <ul>
+      <li>Developed a calendar application, allowing users to create and track events.</li>
+      <li>Written in Python using the Flask and Jinja frameworks to create dynamic HTML web pages.</li>
+      <li>Utilized MongoDB in the backend to store user information.</li>
+    </ul>},
     {projectName: "More to come..."}
   ]
 
   const personalProjects = [
-    {projectName: "Minesweeper + Minesweeper Solver (In Progress)", projectDescription: "This project, built using Pythons Pygame library, attempts to help me understand more algorithmic approaches to autosolving simple games. Check out my GitHub page for the source code or clone to repository to play.", link: "https://github.com/RyanLaidlaw/Minesweeper"},
-    {projectName: "Personal Website", projectDescription: "This very website is another project of mine. Having very limited JavaScript knowledge, I decided that this would be a good introduction to the language. This website is built with JavaScript, HTML and CSS that runs on Node.js. The source code for this project is available at my GitHub page, linked below.", link: "https://github.com/RyanLaidlaw/website"},
-    {projectName: "Tic-Tac-Toe", projectDescription: "Also built in Python using the Pygame library, this project is a small project with the sole purpose of learning about Pygame. To play, head to my GitHub page linked below, clone the repository and run the tictactoe.py file.", link: "https://github.com/RyanLaidlaw/TicTacToe"},
+    {projectName: "Minesweeper + Minesweeper Solver (In Progress)",
+     projectDescription: <ul>
+      <li>Created using Python's Pygame library.</li>
+      <li>Features a fully functioning MineSweeper game, but an in-progress solver.</li>
+     </ul>, 
+     link: "https://github.com/RyanLaidlaw/Minesweeper"},
+    {projectName: "Personal Website", 
+    projectDescription: <ul>
+      <li>Built with JavaScript, HTML and CSS and runs on Node.js.</li>
+      <li>Deployed with GitHub Pages.</li>
+      <li>Created to be an extension of my resume, this is where I keep a running list of my favorite projects and accomplishments.</li>
+    </ul>, 
+    link: "https://github.com/RyanLaidlaw/website"},
+    {projectName: "Tic-Tac-Toe", 
+    projectDescription:<ul>
+      <li>Meant to be a basic introduction to Pygame.</li>
+    </ul>, 
+    link: "https://github.com/RyanLaidlaw/TicTacToe"},
     {projectName: "More to come..."}
   ]
 

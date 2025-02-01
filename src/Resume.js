@@ -23,14 +23,21 @@ function Resume() {
 
   const workExperience = [
     { jobTitle: 'Non-Volatile Memory Express (NVMe) Test Developer', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
-    description: 'Working with other interns to leverage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to the NVMe Integrator\'s List.', 
+    description: <ul>
+      <li>Designed Python test scripts to be used by firmware engineers worldwide to pursue NVMe SSD certification.</li>
+      <li>Maintained legacy Bash testing scripts.</li>
+      <li>Developed test scruots for the Open Compute Project.</li>
+      <li>Implemented Python scripts to streamline test development processes and used tghe Atlassian API to automate Bitbucket workflows.</li>
+      <li>Interfaced with customers about testing services and bug fixes.</li>
+      <li>Mentored new interns, providing guidance and support through the first 6 months of their employment.</li>
+      </ul>, 
     link: 'https://www.iol.unh.edu/' },
 
     { jobTitle: 'Crew Member', company: 'R&R Landscaping', period: 'June 2023 - June 2024', 
-    description: 'Performed upkeep of existing landscaping by pruning, trimming, weeding, and mulching as the leader of a 2-3 man crew.' },
+    description: <ul><li>Performed upkeep of existing landscaping and gained experience in leading a team.</li></ul>},
 
-    { jobTitle: 'Courtesy Clerk', company: 'Shaws Supermarkets', period: 'November 2019 - June 2023',  
-    description: "Customer service representative that worked directly with store patrons. Handled price corrections, returns, and customer check out."}
+    { jobTitle: 'Courtesy Clerk', company: 'Albertsons\'s Companies: Shaw\'s Supermarkets', period: 'November 2019 - June 2023',  
+    description: <ul><li>Interacted directly with customers to handle price corrections, returns and customer check-out.</li></ul>}
   ];
 
   return (
