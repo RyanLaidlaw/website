@@ -26,7 +26,7 @@ function Resume() {
     description: <ul>
       <li>Designed Python test scripts to be used by firmware engineers worldwide to pursue NVMe SSD certification.</li>
       <li>Maintained legacy Bash testing scripts.</li>
-      <li>Developed test scruots for the Open Compute Project.</li>
+      <li>Developed test scripts for the Open Compute Project.</li>
       <li>Implemented Python scripts to streamline test development processes and used tghe Atlassian API to automate Bitbucket workflows.</li>
       <li>Interfaced with customers about testing services and bug fixes.</li>
       <li>Mentored new interns, providing guidance and support through the first 6 months of their employment.</li>
