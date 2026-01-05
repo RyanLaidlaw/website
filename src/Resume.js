@@ -22,7 +22,7 @@ function Resume() {
   ];
 
   const workExperience = [
-    { jobTitle: 'Non-Volatile Memory Express (NVMe) Test Developer', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
+    { jobTitle: 'Senior Developer', company: 'UNH Interoperability Labs', period: 'January 2024 - Present', 
     description: <ul>
       <li>Designed Python test scripts to be used by firmware engineers worldwide to pursue NVMe SSD certification.</li>
       <li>Maintained legacy Bash testing scripts.</li>
@@ -32,12 +32,6 @@ function Resume() {
       <li>Mentored new interns, providing guidance and support through the first 6 months of their employment.</li>
       </ul>, 
     link: 'https://www.iol.unh.edu/' },
-
-    { jobTitle: 'Crew Member', company: 'R&R Landscaping', period: 'June 2023 - June 2024', 
-    description: <ul><li>Performed upkeep of existing landscaping and gained experience in leading a team.</li></ul>},
-
-    { jobTitle: 'Courtesy Clerk', company: 'Albertsons\'s Companies: Shaw\'s Supermarkets', period: 'November 2019 - June 2023',  
-    description: <ul><li>Interacted directly with customers to handle price corrections, returns and customer check-out.</li></ul>}
   ];
 
   return (

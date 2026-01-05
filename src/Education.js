@@ -1,6 +1,7 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 import './css/Education.css';
+
+const GPA = 3.77
 
 function Education() {
   const courses = [
@@ -8,15 +9,11 @@ function Education() {
       <li>Developed a multi-player tank application in Java.</li>
       <li>Explored many different Object-Oriented design patterns for more cohesive, less coupled code.</li>
     </ul>},
-    { courseTitle: 'Introduction to the Theory of Computation', description: <ul>
-      <li>Strong emphasis on proofs of correctness.</li>
-      <li>Finite automata, context-free languages, pushdown automata.</li>
-    </ul>},
     { courseTitle: 'Computer Organization and System-Level Programming', description: <ul>
       <li>Developed a strong understanding of registers, isntruction sets, addressing, assemblers, concurrency and memory management.</li>
       <li>Extensive projects written in the C programming language.</li>
     </ul> },
-    { courseTitle: 'Introduction to Software Engineering', description: <ul>
+    { courseTitle: 'Software Engineering', description: <ul>
       <li>Focused on software development practices (such as Agile), cloud infrastructure, virtual machines and containers.</li>
       <li>Created a web application using Python, HTML, CSS, Flask and Jinja for a dynamic frontend and MongoDB for a JSON-like database.</li>
     </ul> },
@@ -38,7 +35,7 @@ function Education() {
           <h3 className='degree'>
             Bachelor of Science, Computer Science<br />
             Expected Graduation: May 2026<br />
-            GPA: 3.68
+            GPA: {GPA}
           </h3>
         </div>
       </div>
